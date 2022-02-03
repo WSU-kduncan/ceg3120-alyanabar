@@ -17,4 +17,6 @@ Usage:
 i	The bot will respond in one of these four ways: 'Polo, did I win marco polo?', 'POOOOOLLLLLLLOOOOOOO', '~polo~','ahhhhhhhh, you found me'.
 
 Research:
+
+
 	I have found multiple ways to keep a bot running while host pc is off. All of them are pretty similar which is have it running on a software that can keep it on. Using a remote host that can run on a bot with specific software like heroku, virtual private server, rasberry. Or you can use a free version for simple solving which is repl.it. I think this would work either way because as long as the remote locations are on then the bot can stay on.
