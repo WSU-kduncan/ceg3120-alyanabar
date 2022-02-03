@@ -45,9 +45,18 @@ async def on_message(message):
         'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
     ]
 
+    random_quotes = [
+            'Polo, did I win marco polo?', 'POOOOOLLLLLLLOOOOOOO', '~polo~','ahhhhhhhh, you found me', 
+            ]
+
     if message.content == 'towel!':
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(hitchhiker_quotes)
+        await message.channel.send(response)
+
+    if message.content == 'marco':
+        #response = random.choice(brooklyn_99_quotes)
+        response = random.choice(random_quotes)
         await message.channel.send(response)
 
 client.run(TOKEN)
